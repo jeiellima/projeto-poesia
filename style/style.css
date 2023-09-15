@@ -34,22 +34,69 @@ header > h1 {
     padding: 5px;
 }
 
-header > p {
+header p {
     font-family: "Glacial Bold", sans-serif;
     font-weight: bolder;
     font-size: 20px;
 }
 
-.container {
-    padding: 15px;
-    height: 200px;
-    width: 100vw;
-    box-shadow: 1px 1px 1px black;
+main p {
     font-size: 25px;
     text-align: left;
     font-family: "Glacial", Arial, sans-serif;
 }
 
-#q1 {
+br {
+    line-height: 10px;
+}
 
- }
+
+
+.normal {
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 40vh;
+    width: 98vw;
+    box-shadow: 1px 1px 1px black;
+    line-height: 3em;
+}
+
+.imagem {
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 40vh;
+    width: 98vw;
+    box-shadow: 1px 1px 1px black;
+    line-height: 3em;
+}
+
+#back1 {
+    background-color: blue;
+}
+
+#back2 {
+    background-color: red;
+}
+
+#back3 {
+    background-color: purple;
+}
+
+#back4 {
+    background-color: gray;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+}
