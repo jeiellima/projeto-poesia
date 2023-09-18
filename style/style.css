@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
 @font-face {
     font-family: "Glacial" ;
     src: url(../fonts/GlacialIndifference-Regular.otf) format(opentype);
@@ -18,69 +19,55 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    max-width: 100vw;
+body,html {
+    min-height: 100vh;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin: auto;
+    
 }
 
 header > h1 {
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Mooli', sans-serif;
     font-weight: normal;
-    font-size:  8em;
-    padding: 5px;
+    font-variant: small-caps;
+    font-size:  10vw;
+    color: #801c2e;
+    padding-top: 40px;
 }
 
 header p {
-    font-family: "Glacial Bold", sans-serif;
-    font-weight: bolder;
+    font-family: 'Mooli', sans-serif;
+    font-weight: normal;
     font-size: 20px;
+    padding-bottom: 40px;
 }
-
-main p {
-    font-size: 25px;
-    text-align: left;
-    font-family: "Glacial", Arial, sans-serif;
-    text-align: justify;
-}
-
-br {
-    line-height: 10px;
-}
-
-
-
-.normal {
-    padding-top: 15px;
-    padding-left: 15px;
-    height: 40vh;
-    box-shadow: 1px 1px 1px black;
-    line-height: 3em;
-}
-
-.imagem {
-    padding-top: 15px;
-    padding-left: 15px;
-    height: 40vh;
-    box-shadow: 1px 1px 1px black;
-    line-height: 3em;
-    background: black center center no-repeat fixed;
-    background-size: cover;
-}
-
-.imagem p {
-    border-radius: 15px;
+header a{
     color: white;
-    background-color: #0403033f;
-    padding-left: 10px;
-    margin: 15px auto;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2.4em;
+    font-size: 3.5vw;
+    font-family: "Glacial", Arial, sans-serif;
+}
+
+div > p {
     display: inline-block;
+    background-color: #00000062;
+    padding: 5px;
+    color: white;
+    width: 500px;
 }
 
 #back1 {
