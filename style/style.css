@@ -1,17 +1,11 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Mooli&display=swap');
 
 @font-face {
     font-family: "Glacial" ;
     src: url(../fonts/GlacialIndifference-Regular.otf) format(opentype);
     font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Glacial Bold" ;
-    src: url(../fonts/GlacialIndifference-Bold.otf) format(opentype);
-    font-weight: bold;
     font-style: normal;
 }
 
@@ -62,13 +56,23 @@ section {
     font-family: "Glacial", Arial, sans-serif;
 }
 
+section.imagem {
+    background-color: #333333;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000079;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 div > p {
     display: inline-block;
-    background-color: #00000062;
+    background-color: #00000040;
+    backdrop-filter: blur(10px);
     padding: 5px;
-    color: white;
-    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000062;
 }
+
 
 #back1 {
     background-image: url(../images/back1.jpeg);
@@ -99,5 +103,5 @@ footer {
 footer a {
     text-decoration: none;
     font-weight: bold;
-    color: aqua;
+    color: #32acac;
 }
